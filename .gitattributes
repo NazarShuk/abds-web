@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.pck filter=lfs diff=lfs merge=lfs -text
+index.side.wasm filter=lfs diff=lfs merge=lfs -text
+index.side.wasm filter=lfs diff=lfs merge=lfs -text
